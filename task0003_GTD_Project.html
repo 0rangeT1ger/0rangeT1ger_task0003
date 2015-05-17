@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GTD小工具</title>
+    <link href="task0003_GTD_Project.css" rel="stylesheet"/>
+    <script src="html5.js" rel="script"></script>
+</head>
+<body>
+<nav><a class="logo" href="task0003_GTD_Project.html"><img src="logo2.png"/></a><div class="editButton">Edit</div><div class="editButton resetButton">Reset</div></nav>
+<div class="container">
+    <article class="col" id="col1">
+        <article class="newType">New Type</article>
+    </article>
+    <div class="col" id="col2">
+        <article class="finishTagContainer">
+            <article class="finishTag activeTag" id="finishTag_All">全部</article>
+            <article class="finishTag" id="finishTag_Unfinished">未完成</article>
+            <article class="finishTag" id="finishTag_Finished">已完成</article>
+        </article>
+
+        <article class="newType newTodo">New Todo</article>
+    </div>
+    <div class="col" id="col3">
+        <div class="todoTitle"></div>
+        <div class="todoTitle todoDate"></div>
+        <div class="editWindow"></div>
+        <div id="col3_end"></div>
+    </div>
+</div>
+<script src="util.js" rel="script"></script>
+<script src="task0003_GTD_Project.js" rel="script"></script>
+</body>
+</html>
